@@ -18,7 +18,7 @@ static int proc_count(struct seq_file *m, void *v){
 
     seq_printf(m, "%d\n", numProcesses);
 
-    return 0; // return 0 on success
+    return 0;
 }
 
 static int __init proc_count_init(void)
